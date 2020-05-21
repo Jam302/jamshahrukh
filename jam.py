@@ -11,7 +11,7 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
 br.set_handle_robots(False)
-br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
+br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=0.1)
 br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
 
 
@@ -42,7 +42,7 @@ def jalan(z):
 	for e in z + '\n':
 		sys.stdout.write(e)
 		sys.stdout.flush()
-		time.sleep(1)
+		time.sleep(0.1)
 ##### INTRO #####
 logo ="""
 
@@ -64,7 +64,7 @@ logo ="""
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\x1b[1;93mPlease Wait \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\x1b[1;93mPlease Wait \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(0.1)
 
 
 back = 0
@@ -223,7 +223,7 @@ def super():
 	except IOError:
 		print"\x1b[1;97mToken invalid"
 		os.system('rm -rf login.txt')
-		time.sleep(1)
+		time.sleep(0.1)
 		login()
 	os.system('clear')
 	print logo
@@ -274,7 +274,7 @@ def pilih_super():
 	print "\033[1;97m[✔] Total Friends \033[1;97m: \033[1;97m"+str(len(id))
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;97m[✔] Cloning Started\033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\033[1;97m[✔] Cloning Started\033[1;97m"+o),;sys.stdout.flush();time.sleep(0.1)
         print"""
 [!] To Stop Process Press CTRL Then Z
 
