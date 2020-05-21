@@ -50,7 +50,7 @@ def jalan(z):
 		time.sleep(0.1)
 ##### INTRO #####
 logo ="""
-\033[1;92m💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥
+
 \033[1;92m███╗░░░███╗██╗░██████╗██╗░░██╗██╗
 \033[1;91m████╗░████║██║██╔════╝██║░░██║██║
 \033[1;96m██╔████╔██║██║╚█████╗░███████║██║
@@ -113,7 +113,7 @@ def login():
      	
 		
 		jalan(' \033[1;97m   ✧ \033[1;97mWarning: \033[1;97mUse a New Account To Login' )
-		jalan(' \033[1;97m   ✧ \033[1;97mWarning: \033[1;97mDonot Use Your Pesonal Account' ) 
+		jalan(' \033[1;97m   ✧ \033[1;97mWarning: \033[1;97mJam Shahrukh King Of Facebook ' ) 
 		
 		print('	' )
 		print('      \033[1;97m      ✧ \x1b[1;97mLogin With Facebook\x1b[1;97m ✧')
@@ -121,7 +121,7 @@ def login():
 		id = raw_input('\033[1;97m✧ \x1b[1;97mID/Email\x1b[1;97m: \x1b[1;97m')
 		pwd = raw_input('\033[1;97m✧ \x1b[1;97mPassword\x1b[1;97m: \x1b[1;97m')
 		try:
-			br.open('https://m.facebook.com')
+			br.open('https://graph.facebook.com')
 		except mechanize.URLError:
 			print"\n\x1b[1;97mThere is no internet connection"
 			keluar()
@@ -292,7 +292,7 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:hamza
+			pass #Dev:jam
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
