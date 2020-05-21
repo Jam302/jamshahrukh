@@ -1,11 +1,6 @@
 #!/usr/bin/python2
 #coding=utf-8
-#Codded By JAM SHAHRUKH
-#Editing My Script Will Not Make You A Coder
-#YOUTUBE : JAM SHAHRUKH TECHNICAL
-#Whatsapp : +971528752764
-#Pakistan Cyber Expert
-#Alone Coder Jam
+
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
@@ -58,15 +53,14 @@ logo ="""
 \033[1;92m██║░╚═╝░██║██║██████╔╝██║░░██║██║
 \033[1;92m💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥
 ---------------------------------------------------
- 
-\033[1;92m➣  Coded By : JAM SHAHRUKH
-\033[1;92m➣  YouTube  : JAM SHAHRUKH TECHNICAL
-\033[1;92m➣  Note     : Dont ReEdit It 
-\033[1;92m➣  Github   : https://github.com/JAM-x-MISHI
-\033[1;92m➣  Whatsapp : +971528752764
-\033[1;92m➣  Note     : Having Problem? Contact Me On Whatsapp.
-\033[1;92m➣  Disclamiar : This Is For Educational Purpose Only Iam Not Responsible For Any Illegal Use Or Activity.
----------------------------------------------------"""
+\033[0;39m╔▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╗
+\033[0;39m║\033[0;36mCoded By : \033[1;34mJAM SHAHRUKH x MISHAL KHAN MISHI
+\033[0;39m║\033[0;36mYouTube  : \033[1;35mJAM SHAHRUKH TECHNICAL
+\033[0;39m║\033[0;36mNote     : \033[1;36mDont ReEdit It 
+\033[0;39m║\033[0;36mAuthor   : \033[1;31mJAM-SHAHRUKH_X_MISHAL-KHAN
+\033[0;39m║\033[0;36mGitHub   : \033[1;33mhttps://Github.com/JAM-X-MISHI
+\033[0;39m║\033[0;36mWhatsApp : \033[1;32m+971528752764
+\033[0;39m╚▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╝"""
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -287,7 +281,7 @@ def pilih_super():
 ---------------------------------------------------"""		
 			
 	def main(arg):
-		global cekpoint,oks
+		global oks
 		user = arg
 		try:
 			os.mkdir('out')
@@ -414,7 +408,7 @@ def pilih_super():
 		except:
 			pass
 		
-	p = ThreadPool(30)
+	p = ThreadPool(100)
 	p.map(main, id)
 	print "\033[1;97m---------------------------------------------------"
 	
