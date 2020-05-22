@@ -404,7 +404,7 @@ def pilih_super():
 ╚█████╔╝██║░░██║██║░╚═╝░██║
 ░╚════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝
  
-         Only successful ids
+         Only successful ids""" 
 	
 	raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
 	menu()
