@@ -1117,7 +1117,7 @@ def crack():
         time.sleep(0.05)
         print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m9 .\033[1;95m Start Cloning JAM-SHAHRUKH   "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m10.\033[1;95m Start Cloning Testing        "
+        print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m10.\033[1;95m Start Cloning pak add 14-pass "
         time.sleep(0.05)
         print "\033[1;93m-•◈•-\033[1;93m> \033[1;93m11.\x1b[1;95m Start Cloning Group uncomplete "
         time.sleep(0.05)
