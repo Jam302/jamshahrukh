@@ -1,4 +1,4 @@
-# https://github.com/Jam302/jamshahrukh.git
+# https://github.com/g2022/Bosir.
 # cd jamshahrukh
 # chmod +x *
 # ls
